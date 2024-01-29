@@ -7,7 +7,9 @@ public class HelloWorld {
     LocalTime currentTime = new LocalTime();
     System.out.println("The current local time is: " + currentTime);
     Greeter greeter = new Greeter();
+    Health health = new Health();
     System.out.println(greeter.sayHello());
+    System.out.println(health.healthCheck());
     System.out.println("test build");
   }
 }
